@@ -1,0 +1,23 @@
+{
+  "name": "tradebotvisual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "we are live!",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
+  },
+  "author": "Lukas Aichhorn",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.0.1",
+    "lite-server": "^2.6.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.5"
+  }
+}
